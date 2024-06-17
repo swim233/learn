@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/swim/git/NetCraft/NetCraft.csproj": {}
+  },
+  "projects": {
+    "/home/swim/git/NetCraft/NetCraft.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/swim/git/NetCraft/NetCraft.csproj",
+        "projectName": "NetCraft",
+        "projectPath": "/home/swim/git/NetCraft/NetCraft.csproj",
+        "packagesPath": "/home/swim/.nuget/packages/",
+        "outputPath": "/home/swim/git/NetCraft/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/swim/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "JeremyAnsel.Media.WavefrontObj": {
+              "target": "Package",
+              "version": "[3.0.36, )"
+            },
+            "OpenTK": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            },
+            "StbImageSharp": {
+              "target": "Package",
+              "version": "[2.27.14, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.6, 8.0.6]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.106/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
